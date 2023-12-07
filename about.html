@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dento Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"  />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"  />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="icon" href="images/fev-icon.png">
+</head>
+<body>
+					<!-- header-close -->
+	<header>
+		<div class="topbar">
+			<div class="topbar_inner_1">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<a href="#">28 Jackson Street, Chicago, 7788569 USA </a>
+					<span class="tooltip_text">
+						28 Jackson Street, Chicago, 7788569 USA
+					</span>
+				</div>
+				<div style="margin-left: 20px;">
+					<i class="fa fa-envelope"></i>
+					<a href="#"> info.dento@gmail.com </a>
+					<span class="tooltip_text">
+						 info.dento@gmail.com
+					</span>
+				</div>
+			</div>	
+			<div class="topbar_inner_2">
+				<div class="top_icon_1">
+					<i class="fa-brands fa-facebook-f"></i>
+					<span class="tooltip_text_2">
+						facebook
+					</span>
+				</div>
+				<div class="top_icon_1">
+					<i class="fa-brands fa-twitter"></i>
+					<span class="tooltip_text_2">
+						twitter
+					</span>
+				</div>
+				<div class="top_icon_1">
+					<i class="fa-brands fa-google-plus-g"></i>
+					<span class="tooltip_text_2">
+						google-plus
+					</span>
+				</div>
+				<div class="top_icon_1">
+					<i class="fa-brands fa-linkedin-in"></i>
+					<span class="tooltip_text_2">
+						linkedin
+					</span>
+				</div>
+				<div class="top_icon_1">
+					<i class="fa-brands fa-pinterest"></i>
+					<span class="tooltip_text_2">
+						instagram
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="logo">
+				<img src="images/logo.webp" alt="" />
+			</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html" class="first_menu_list">home</a></li>
+				<li>
+					<a href="#" class="first_menu_list">pages</a>
+					<ul>
+						<li><a href="#" class="second_menu_list">- home</a></li>
+						<li><a href="#" class="second_menu_list">- about us</a></li>
+						<li><a href="#" class="second_menu_list">- services</a></li>
+						<li><a href="#" class="second_menu_list">- pricing</a></li>
+						<li><a href="#" class="second_menu_list">- blog</a></li>
+						<li><a href="#" class="second_menu_list">- blog details</a></li>
+						<li><a href="#" class="second_menu_list">- contact</a></li>
+						<li>
+							<a href="#" class="second_menu_list">- dropdown</a>
+							<ul>
+								<li><a href="#" class="second_menu_list">- DeepSubMenu 1</a></li>
+								<li>
+									<a href="#" class="second_menu_list">- DeepSubMenu 2</a>
+									<ul>
+										<li><a href="#" class="second_menu_list">- EvenSubMenu 1</a></li>
+										<li><a href="#" class="second_menu_list">- EvenSubMenu 2</a></li>
+										<li><a href="#" class="second_menu_list">- EvenSubMenu 3</a></li>
+										<li><a href="#" class="second_menu_list">- EvenSubMenu 4</a></li>
+									</ul>
+								</li>
+								<li><a href="#" class="second_menu_list">- DeepSubMenu 3</a></li>
+								<li><a href="#" class="second_menu_list">- DeepSubMenu 4</a></li>
+							</ul>
+						</li>
+					</ul>		
+				</li>
+				<li><a href="about.html" class="first_menu_list">about</a></li>
+				<li><a href="service.html" class="first_menu_list">services</a></li>
+				<li><a href="pricing.html" class="first_menu_list">pricing</a></li>
+				<li>
+					<a href="blog.html" class="first_menu_list">blog</a>
+					<ul>
+						<li><a href="blog.html" class="second_menu_list">- Blog</a></li>
+						<li><a href="blog2.html" class="second_menu_list">- Blog Details</a></li>
+					</ul>		
+				</li>
+				<li><a href="contact.html" class="first_menu_list">contact</a></li>
+			</ul>
+		</div>
+		<div class="nav_btn">
+			<a href="#">booking now</a>
+		</div>
+		<div id="menu_bar" onclick="onMenuClick()">
+			<div class="bar_1" id="bar_1"></div>
+			<div class="bar_1" id="bar_2"></div>
+			<div class="bar_1" id="bar_3"></div>
+		</div>
+		</div>
+	</header>
+					<!-- header-open -->
+
+					<!-- hero-open -->
+	<section class="hero_area">
+		<div class="hero_overlay"></div>
+		<h2>about us</h2>
+	</section>
+					<!-- hero-close -->
+
+					<!-- about-open -->
+	<section class="about_sec">
+		<div class="about_main_container">
+			<div class="about_inner_1">
+				<img src="images/about.webp" alt="" />
+			</div>
+			<div class="about_inner_2">
+				<div class="about_text">
+					<h4>about us</h4>
+					<p>
+						Vestibulum condimentum, risus sedones honcus 
+						rutrum, salah lacus mollis zurna, nec finibusmi 
+						velit advertisis. Proin vitae odin quis magna 
+						aliquet laciniae. Etiam auctor, nisi vel. 
+						Pellentesque ultrices nisl quam iaculis, 
+						nec pulvinar augue.
+					</p>
+					<div class="progress_bar_main">
+						<div class="progress_bar_main_inner">
+							<h3>experience dentist</h3>
+							<h6>80%</h6>
+						</div>
+						<div class="progress_bar">
+							<div class="progress_bar_1"></div>
+						</div>
+					</div>
+
+					<div class="progress_bar_main">
+						<div class="progress_bar_main_inner">
+							<h3>modern equipment</h3>
+							<h6>65%</h6>
+						</div>
+						<div class="progress_bar">
+							<div class="progress_bar_1 main_2"></div>
+						</div>
+					</div>
+
+					<div class="progress_bar_main">
+						<div class="progress_bar_main_inner">
+							<h3>friendly staff</h3>
+							<h6>85%</h6>
+						</div>
+						<div class="progress_bar">
+							<div class="progress_bar_1 main_3"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+					<!-- about-close -->
+
+					<!-- counter-open -->
+	<section class="counter_sec">
+		<div class="counter_main">
+			<div class="counter_1">
+				<div class="counter_icon">
+					<img src="images/gear.png" width="50px" alt="" />
+				</div>
+				<h2 class="counter">20</h2>
+				<div class="counter_text">
+					<h4>year of experience</h4>
+				</div>
+			</div>
+			<div class="counter_1">
+				<div class="counter_icon">
+					<img src="images/heart.png" width="50px" alt="" />
+				</div>
+				<h2 class="counter">700</h2>
+				<div class="counter_text">
+					<h4>Happy Patients</h4>
+				</div>
+			</div>
+			<div class="counter_1">
+				<div class="counter_icon">
+					<img src="images/book.png" width="50px" alt="" />
+				</div>
+				<h2 class="counter">120</h2>
+				<div class="counter_text">
+					<h4>Certificate</h4>
+				</div>
+			</div>
+			<div class="counter_1">
+				<div class="counter_icon">
+					<img src="images/id.png" width="50px" alt="" />
+				</div>
+				<h2 class="counter">40</h2>
+				<div class="counter_text">
+					<h4>Dentist</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+					<!-- counter-close -->
+
+					<!-- comment-open -->
+	<section class="comment_sec" style="margin-top: 100px;">
+		<div class="comment_main">
+			<div class="owl-carousel owl-theme">
+    			<div class="item">
+    				<div class="comment_1">
+						<div class="comment_img">
+							<img src="images/comment.webp" alt="" />
+						</div>
+						<div class="comment-text">
+							<p>
+								“I'd been avoiding the dentist for 
+								years due to bad experiences. A 
+								reminder SMS is sent the working day 			beforehand. I also had a call confirming 
+								appointment. I have been a patient ever 
+								since. My dentist is very reassuring 
+								and very helpful. Excellent treatment 
+								and advice.”
+							</p>
+							<h3>Arron Ramsey</h3>
+							<h6>Dental Patient</h6>
+						</div>
+					</div>
+    			</div>
+    			<div class="item">
+    				<div class="comment_1">
+						<div class="comment_img">
+							<img src="images/comment.webp" alt="" />
+						</div>
+						<div class="comment-text">
+							<p>
+								“I'd been avoiding the dentist for 
+								years due to bad experiences. A 
+								reminder SMS is sent the working day 
+								beforehand. I also had a call confirming appointment. I have been a patient ever 
+								since. My dentist is very reassuring 
+								and very helpful. Excellent treatment 
+								and advice.”
+							</p>
+							<h3>Arron Ramsey</h3>
+							<h6>Dental Patient</h6>
+						</div>
+					</div>
+    			</div>
+    			<div class="item">
+    				<div class="comment_1">
+						<div class="comment_img">
+							<img src="images/comment.webp" alt="" />
+						</div>
+						<div class="comment-text">
+							<p>
+								“I'd been avoiding the dentist for 
+								years due to bad experiences. A 
+								reminder SMS is sent the working 
+								day beforehand. I also had a call 
+								confirming appointment. I have been 
+								a patient ever since. My dentist is 
+								very reassuring and very helpful. 
+								Excellent treatment and advice.”
+							</p>
+							<h3>Arron Ramsey</h3>
+							<h6>Dental Patient</h6>
+						</div>
+					</div>
+    			</div>
+   				<div class="item">
+    				<div class="comment_1">
+						<div class="comment_img">
+							<img src="images/comment.webp" alt="" />
+						</div>
+						<div class="comment-text">
+							<p>
+								“I'd been avoiding the dentist for 
+								years due to bad experiences. A 
+								reminder SMS is sent the working 
+								day beforehand. I also had a call 
+								confirming appointment. I have been 
+								a patient ever since. My dentist is 
+								very reassuring and very helpful. 
+								Excellent treatment and advice.”
+							</p>
+							<h3>Arron Ramsey</h3>
+							<h6>Dental Patient</h6>
+						</div>
+					</div>
+   				</div>    
+			</div>
+		</div>
+	</section>
+					<!-- comment-close -->
+
+					<!-- doctor-open -->
+	<section class="doctor_sec">
+		<div class="doctor_main_heading">
+			<h2>our dentist</h2>
+		</div>
+		<div class="doctor_main">
+			<div class="doctor_1">
+				<div class="doctor_img">
+					<img src="images/doctor-1.webp" alt="" />
+				</div>
+				<div class="doctor_icon">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-google-plus"></i>
+				</div>
+				<div class="doctor_text">
+					<h6>Michael Barley</h6>
+					<p>Implant Expert</p>
+				</div>
+			</div>
+			<div class="doctor_1">
+				<div class="doctor_img">
+					<img src="images/doctor-2.webp" alt="" />
+				</div>
+				<div class="doctor_icon">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-google-plus"></i>
+				</div>
+				<div class="doctor_text">
+					<h6>Michael Barley</h6>
+					<p>Implant Expert</p>
+				</div>
+			</div>
+			<div class="doctor_1">
+				<div class="doctor_img">
+					<img src="images/doctor-3.webp" alt="" />
+				</div>
+				<div class="doctor_icon">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-twitter"></i>
+					<i class="fa fa-google-plus"></i>
+				</div>
+				<div class="doctor_text">
+					<h6>Michael Barley</h6>
+					<p>Implant Expert</p>
+				</div>
+			</div>
+		</div>
+	</section>
+					<!-- doctor-close -->
+
+					<!-- footer-open -->
+	<footer style="margin-top: 100px;">
+		<div class="overlay_footer"></div>
+		<div class="footer_main">
+			<div class="foot-1">
+				<img src="images/logo.webp" alt="" />
+				<p>
+					Etiam sutor risus, dapibus act elefend 
+					katen, lacinia sitamet denim. Mauris 
+					sagittis kansa interdum dignissim.
+				</p>
+				<ul>
+					<li>
+						<i class="fa fa-map-marker"></i>
+						<a href="#">
+							28 Jackson Street, Chicago, 7788569 USA
+						</a>
+					</li>
+					<li>
+						<i class="fa-solid fa-phone"></i>
+						<a href="#">
+							+84. 2252. 2250. 122
+						</a>
+					</li>
+					<li>
+						<i class="fa fa-envelope"></i>
+						<a href="#">
+							info.dento@gmail.com
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foot-2">
+				<h3>opening hours</h3>
+				<div class="foot_inner_2">
+					<ul>
+						<li>Mon-Wed</li>
+						<li>Thu-Fri</li>
+						<li>Sat</li>
+						<li>Sun</li>
+						<li>Holiday</li>
+					</ul>
+					<ul>
+						<li>8:00-18:00</li>
+						<li>8:00-17:00</li>
+						<li>9:00-17:00</li>
+						<li>10:00-17:00</li>
+						<li>closed</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot-3">
+				<h3>quicks links</h3>
+				<div class="foot_inner_2">
+					<ul>
+						<li>About</li>
+						<li>Contact</li>
+						<li>News</li>
+						<li>Careers</li>
+						<li>Services</li>
+					</ul>
+					<ul>
+						<li>FAQs</li>
+						<li>Policy</li>
+						<li>Advisors</li>
+						<li>Dentist</li>
+						<li>Legals</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot-4">
+				<h3>news letter</h3>
+				<p>
+					We will send out weekly newest article 
+					and some great offers
+				</p>
+				<div class="foot-form">
+					<form>
+						<div class="form_input" placeholder="Email Address">
+							<input type="text" name="">
+						<button>
+							<i class="fa-solid fa-paper-plane"></i>
+						</button>
+						</div>
+					</form>
+				</div>
+				<div class="foot_icon">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-google-plus-g"></i>
+					<i class="fa-brands fa-linkedin-in"></i>
+					<i class="fa-brands fa-pinterest"></i>
+				</div>
+			</div>
+		</div>
+		<div class="footer_last">
+			<h5>
+				Copyright ©2022 All rights reserved | This 
+				template is made with  by Colorlib
+			</h5>
+		</div>
+	</footer>
+					<!-- footer-close -->
+
+
+
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.counter').counterUp({
+    			delay: 10,
+    			time: 1000
+			});
+
+			$('.owl-carousel').owlCarousel({
+    			loop:true,
+    			margin:10,
+    			nav:false,
+    			dots:false,
+    			responsive:{
+        					0:{
+            					items:1
+        					},
+        					600:{
+            					items:1
+        					},
+        					1000:{
+            					items:1
+        					}
+    			}	
+			})
+		});
+	</script>
+</body>
+</html>
